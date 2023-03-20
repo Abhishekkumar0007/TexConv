@@ -1,16 +1,16 @@
 //import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import About from './components/About';
+// import About from './components/About';
 import Alert from './components/Alert';
 import Navbar from './components/Navbar';
 import Textform from './components/Textform';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
   
-} from "react-router-dom";
+// } from "react-router-dom";
 
 
 
@@ -28,22 +28,22 @@ function App() {
   }
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <Navbar title="Texconv" mode={mode} toggleMode={toggleMode} itm1="Home" itm2="Items" itm3="About" />
         <Alert myalert="This ia an alert - your system will be destroyed in 5sec " />
 
         <div className="container my-4">
 
-          <Switch>
+          {/* <Switch>
             <Route exact path="/About">
               <About />
-            </Route>
+            </Route> */}
 
-            <Route exact path="/">
+            {/* <Route exact path="/"> */}
               <Textform heading="OUR SERVICE" mode={mode} />
-
+{/* 
             </Route>
-          </Switch>
+          </Switch> */}
 
 
 
@@ -53,7 +53,7 @@ function App() {
 
         </div>
 
-      </Router>
+      {/* </Router> */}
 
     </>
 
