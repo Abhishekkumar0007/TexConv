@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TexConv/static/css/main.073c9b0a.css",
+    "main.js": "/TexConv/static/js/main.7ed00d98.js",
+    "static/js/787.c20870d0.chunk.js": "/TexConv/static/js/787.c20870d0.chunk.js",
+    "index.html": "/TexConv/index.html",
+    "main.073c9b0a.css.map": "/TexConv/static/css/main.073c9b0a.css.map",
+    "main.7ed00d98.js.map": "/TexConv/static/js/main.7ed00d98.js.map",
+    "787.c20870d0.chunk.js.map": "/TexConv/static/js/787.c20870d0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7ed00d98.js"
+  ]
+}
